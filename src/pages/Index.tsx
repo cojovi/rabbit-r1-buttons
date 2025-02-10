@@ -52,6 +52,11 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-black p-8">
       <div className="max-w-4xl mx-auto">
+        <img 
+          src="/placeholder.svg"
+          alt="Logo"
+          className="w-32 h-32 mx-auto mb-12"
+        />
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {buttons.map((button) => (
             <button
